@@ -3,14 +3,14 @@
 ===========================*/
 .about-one {
   background-color: #4c4e50;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   font-family: "Rubik", sans-serif;
   color: aliceblue;
 
 }
 .about-one .about-title {
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   text-transform: uppercase;
 }
 .about-title::after{

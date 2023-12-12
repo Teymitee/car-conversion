@@ -16,7 +16,7 @@ import ManageServices from "./Pages/ManageServices/ManageServices";
 import Contact from "./Pages/Contact/Contact";
 // import Order from "./Pages/Order/Order";
 import Services from "./Pages/Home/Services/Services";
-import Blogs from "./Pages/Home/Blogs/Blogs";
+import Gallery from "./Pages/Home/Gallery/Gallery";
 import E from "./Pages/Home/E/E";
 // import Serv from "./Pages/Serv";
 
@@ -33,37 +33,9 @@ function App() {
           element={<ServiceDetails></ServiceDetails>}
         ></Route>
         <Route path="about" element={<About></About>}></Route>
-        <Route path="blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="gallery" element={<Gallery></Gallery>}></Route>
         {/* <Route path="login" element={<Login></Login>}></Route> */}
         {/* <Route path="signup" element={<Signup></Signup>}></Route> */}
-        <Route
-          path="checkout/:serviceId"
-          element={
-            <RequireAuth>
-              <Checkout></Checkout>
-            </RequireAuth>
-          }></Route>
-          <Route
-          path="addservice"
-          element={
-            <RequireAuth>
-              <AddService></AddService>
-            </RequireAuth>
-          }></Route>
-          <Route
-          path="manageservice"
-          element={
-            <RequireAuth>
-              <ManageServices></ManageServices>
-            </RequireAuth>
-          }></Route>
-          <Route
-          path="orders"
-          element={
-            <RequireAuth>
-              {/* <Order></Order> */}
-            </RequireAuth>
-          }></Route>
           <Route path="contact" element={<Contact></Contact>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>

@@ -30,7 +30,7 @@ const Banner = () => {
         <img className="d-block w-100 h" src={banner2} alt="Second slide" />
 
         <Carousel.Caption>
-          {/* <h3>ASE Certified Technicians</h3> */}
+          <h3>Certified Technicians</h3>
           <p>
             Our highly skilled technicians offer comprehensive knowledge and
             experience.

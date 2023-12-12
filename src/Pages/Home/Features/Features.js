@@ -36,8 +36,8 @@ const Features = () => {
               <div className="items-content">
                 <h4 className="items-title">Efficiency & Speed</h4>
                 <p className="text">
-                  The car doctor is your best source for professional, reliable,
-                  and efficient auto repair service.
+                  We are your best source for professional, reliable,
+                  and efficient auto upgrade service.
                 </p>
               </div>
             </div>

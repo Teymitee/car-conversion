@@ -101,7 +101,7 @@ const Contact = () => {
                                 </div>
                                 <div class="info-content">
                                    <p class="text">
-                                   Madison Street, NewYork, USA
+                                   17 Ojekunle St, Papa Ajao, Lagos 100253, Lagos
                                    </p>
                                 </div>
                              </div>
@@ -113,7 +113,7 @@ const Contact = () => {
                                    <i class="lni lni-phone"></i>
                                 </div>
                                 <div class="info-content">
-                                   <p class="text">+61 (8) 8234 3555</p>
+                                   <p class="text">+234806 681 7327</p>
                                 </div>
                              </div>
                         
@@ -124,7 +124,7 @@ const Contact = () => {
                                    <i class="lni lni-phone-set"></i>
                                 </div>
                                 <div class="info-content">
-                                   <p class="text">+61 (8) 8234 3555</p>
+                                   <p class="text">+234806 681 7327</p>
                                 </div>
                              </div>
                         
@@ -135,7 +135,7 @@ const Contact = () => {
                                    <i class="lni lni-envelope"></i>
                                 </div>
                                 <div class="info-content">
-                                   <p class="text">support@thecardoctor.com</p>
+                                   <p class="text">cs@carconversionglobal.com</p>
                                 </div>
                              </div>
                         
@@ -144,7 +144,7 @@ const Contact = () => {
                        <ul class="social mt-5">
                           <li>
                              <a href="javascript:void(0)">
-                             <i class="lni lni-facebook-filled"></i>
+                             <i class="lni lni-facebook-original"></i>
                              </a>
                           </li>
                           <li>

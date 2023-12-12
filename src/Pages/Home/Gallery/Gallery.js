@@ -1,10 +1,10 @@
 import React from 'react';
-import './Blogs.css';
+import './Gallery.css';
 
-const Blogs = () => {
+const Gallery = () => {
     return (
         <div>
-        <h1 className='text-center mt-5 heading'>Our Latest Blogs</h1>
+        <h1 className='text-center mt-5 heading'>GALLERY</h1>
         <section className="blog-area pb-5 text-center">
            <div className="container">
               <div className="row justify-content-center">
@@ -93,4 +93,4 @@ const Blogs = () => {
     );
 };
 
-export default Blogs;
+export default Gallery;

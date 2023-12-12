@@ -182,6 +182,10 @@
     border-right: 0;
   }
   
+  .info {
+    list-style: none;
+    padding: 0;
+  }
   .contact-info ul li .single-info {
     position: relative;
     margin-top: 19px;
@@ -204,6 +208,9 @@
     line-height: 24px;
     color: var(--dark-3);
     font-weight: 500;
+  }
+  .social {
+    padding: 0;
   }
   .contact-info .social li {
     display: inline-block;

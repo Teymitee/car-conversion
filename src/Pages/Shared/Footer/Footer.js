@@ -14,7 +14,7 @@ const Footer = () => {
                <div className="f-about">
                   <div className="footer-logo">
                      <a href="/">
-                     <img src={logo} alt="Logo" width={"100%"}/>
+                     <img src={logo} alt="Logo" width={"80%"}/>
                      </a>
                   </div>
                   <p className="text">
@@ -71,14 +71,13 @@ const Footer = () => {
             <div className="col-xl-2 col-lg-3 col-sm-4">
       
                <div className="footer-contact">
-                  <h6 className="footer-title">Help & Suuport</h6>
+                  <h6 className="footer-title">Help & Support</h6>
                   <ul>
                      <li>
-                        <i className="lni lni-map-marker"></i> Madison Street, NewYork,
-                        USA
+                        <i className="lni lni-map-marker"></i> 17 Ojekunle St, Papa Ajao, Lagos 100253, Lagos
                      </li>
-                     <li><i className="lni lni-phone-set"></i> +88 556 88545</li>
-                     <li><i className="lni lni-envelope"></i> support@thecardoctor.com</li>
+                     <li><i className="lni lni-phone-set"></i> +234806 681 7327</li>
+                     <li><i className="lni lni-envelope"></i> cs@carconversionglobal.com</li>
                   </ul>
                </div>
         
@@ -106,7 +105,7 @@ const Footer = () => {
                   <ul className="social">
                      <li>
                         <a href="/">
-                        <i className="lni lni-facebook-filled"></i>
+                        <i className="lni lni-facebook-original"></i>
                         </a>
                      </li>
                      <li>

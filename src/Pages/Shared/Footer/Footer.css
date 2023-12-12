@@ -27,6 +27,7 @@
   line-height: 22px;
   color: var(--black);
   position: relative;
+  text-transform: uppercase;
 }
 .footer-one .footer-app-store {
   padding-top: 22px;
@@ -99,6 +100,8 @@
 }
 .footer-one .footer-link ul {
   margin-top: 8px;
+  padding: 0;
+  list-style-type: none;
 }
 .footer-one .footer-link ul a {
   font-size: 16px;
@@ -111,6 +114,7 @@
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+
 }
 @media (max-width: 767px) {
   .footer-one .footer-link ul a {
@@ -125,6 +129,7 @@
 }
 .footer-one .footer-contact ul {
   margin-top: 24px;
+  padding: 0;
 }
 .footer-one .footer-contact ul li {
   display: block;

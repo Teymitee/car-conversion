@@ -5,7 +5,7 @@ import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 // import auth from "../../../firebase.init";
 import logo from "../../../images/logo.png";
-import './Header.css';
+import "./Header.css";
 
 const Header = () => {
   const [user] = useState(null);
@@ -14,9 +14,9 @@ const Header = () => {
   const handleSignout = () => {
     // signOut(auth);
   };
-  const handleNavigateC = () =>{
+  const handleNavigateC = () => {
     navigate(`/contact`);
-  }
+  };
   return (
     <>
       <Navbar
@@ -25,7 +25,6 @@ const Header = () => {
         sticky="top"
         variant="dark"
         className="p-4 shadow"
-
       >
         <Container>
           <Navbar.Brand as={Link} to="/">
@@ -34,51 +33,30 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto ">
-            <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="about">About Us</Nav.Link>
-              <Nav.Link as={Link} to="service">Services</Nav.Link>
-              <Nav.Link as={Link} to="Gallery">
+              <Nav.Link as={Link} to="about">
+                About Us
+              </Nav.Link>
+              <Nav.Link as={Link} to="service">
+                Services
+              </Nav.Link>
+              <Nav.Link as={Link} to="gallery">
                 Gallery
               </Nav.Link>
               <Nav.Link as={Link} to="contact">
                 Contact Us
               </Nav.Link>
-              <Nav.Link as={Link} to="blogs">
-                Blogs
-              </Nav.Link>
             </Nav>
             <Nav>
-             
-              {user && (
-                <>
-                  <Nav.Link as={Link} to="addservice">
-                    Add Service
-                  </Nav.Link>
-                  <Nav.Link as={Link} to="manageservice">
-                    Manage Services
-                  </Nav.Link>
-                  <Nav.Link as={Link} to="orders">
-                    Orders
-                  </Nav.Link>
-                </>
-              )}
-              {/* {user ? (
-                <> 
-                <Button onClick={handleSignout} className="btn btn-danger rounded-pill">
-                  Sign out
-                </Button></>
-                
-                
-              ) : (
-                <Nav.Link as={Link} to="login">
-                  Login
-                </Nav.Link>
-                
-              )} */}
-              {!user && (<button className="btn btn-new rounded-pill mx-3" onClick={handleNavigateC}>Let's Talk</button>)}
-             
+              
+                <button
+                  className="btn btn-new rounded-pill mx-3"
+                  onClick={handleNavigateC}
+                >
+                  Let's Talk
+                </button>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "../../Shared/PageTitle/PageTitle";
 import Banner from "../Banner/Banner";
-import Blogs from "../Blogs/Blogs";
+import Gallery from "../Gallery/Gallery";
 import Clients from "../Clients/Clients";
 import Cta from "../Cta/Cta";
 import E from "../E/E";
@@ -19,11 +19,11 @@ const Home = () => {
       <Banner></Banner>
       <Features></Features>
       <Services></Services>
-      <Clients></Clients>
-      <E></E>
-      <Cta></Cta>
-      <Video></Video>
-      <Blogs></Blogs>
+      {/* <Clients></Clients> */}
+      {/* <E></E> */}
+      {/* <Cta></Cta> */}
+      {/* <Video></Video> */}
+      {/* <Blogs></Blogs> */}
       <Contact></Contact>
       </>
   );
