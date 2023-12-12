@@ -17,9 +17,9 @@ const Banner = () => {
       <Carousel.Item className="carousel-itemm">
         <img className="d-block w-100 h" src={banner1} alt="First slide" />
         <Carousel.Caption>
-          <h3>Efficiency & Speed</h3>
+          <h3>Car Converion Global Limited</h3>
           <p>
-            Car Convertion Global Limited is your best source for professional, reliable, and
+            your best source for professional, reliable, and
             efficient auto upgrade service.
           </p>
           <a href="/experts"><button className="btn btn-danger rounded-pill m-2">Our Services</button></a>
@@ -30,7 +30,7 @@ const Banner = () => {
         <img className="d-block w-100 h" src={banner2} alt="Second slide" />
 
         <Carousel.Caption>
-          <h3>ASE Certified Technicians</h3>
+          {/* <h3>ASE Certified Technicians</h3> */}
           <p>
             Our highly skilled technicians offer comprehensive knowledge and
             experience.
