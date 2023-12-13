@@ -24,11 +24,11 @@ const Header = () => {
         expand="lg"
         sticky="top"
         variant="dark"
-        className="p-4 shadow"
       >
         <Container>
           <Navbar.Brand as={Link} to="/">
-            <img height={30} src={logo} alt="" />
+            <img height={50} src={logo} alt="" />
+           
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -50,13 +50,12 @@ const Header = () => {
               </Nav.Link>
             </Nav>
             <Nav>
-              
-                <button
-                  className="btn btn-new rounded-pill mx-3"
-                  onClick={handleNavigateC}
-                >
-                  Let's Talk
-                </button>
+              <button
+                className="btn btn-new rounded-pill mx-3"
+                onClick={handleNavigateC}
+              >
+                Let's Talk
+              </button>
             </Nav>
           </Navbar.Collapse>
         </Container>

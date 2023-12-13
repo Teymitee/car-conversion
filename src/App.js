@@ -24,6 +24,7 @@ function App() {
   return (
     <div>
       <Header></Header>
+
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="service" element={<Services></Services>}></Route>
@@ -36,7 +37,7 @@ function App() {
         <Route path="gallery" element={<Gallery></Gallery>}></Route>
         {/* <Route path="login" element={<Login></Login>}></Route> */}
         {/* <Route path="signup" element={<Signup></Signup>}></Route> */}
-          <Route path="contact" element={<Contact></Contact>}></Route>
+        <Route path="contact" element={<Contact></Contact>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
