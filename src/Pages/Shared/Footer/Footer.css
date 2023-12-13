@@ -14,13 +14,25 @@
     padding-top: 40px;
     padding-bottom: 70px;
   }
+  
 }
 @media (max-width: 767px) {
   .footer-one .footer-widget {
     padding-top: 20px;
     padding-bottom: 50px;
   }
+  .f-about, .footer-app-store {
+    text-align: center;
+  }
+  .footer-app-store ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+  }
+ 
 }
+
 .footer-one .footer-title {
   font-size: 18px;
   font-weight: 600;
@@ -31,6 +43,9 @@
 }
 .footer-one .footer-app-store {
   padding-top: 22px;
+}
+.footer-app-store ul {
+  padding: 0;
 }
 .footer-one .footer-app-store .download-title {
   font-size: 15px;

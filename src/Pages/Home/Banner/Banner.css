@@ -5,11 +5,14 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .h {
     height: 90vh;
+    object-fit: cover;
   }
 }
 @media (max-width: 767px) {
   .h {
     height: 70vh;
+    object-fit: cover;
+
   }
 }
 
