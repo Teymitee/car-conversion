@@ -1,0 +1,17 @@
+.service{
+    border: 0 !important;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.card {
+    border: 0;
+}

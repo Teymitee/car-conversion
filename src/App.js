@@ -11,6 +11,7 @@ import Contact from "./Pages/Contact/Contact";
 import Services from "./Pages/Home/Services/Services";
 import Gallery from "./Pages/Home/Gallery/Gallery";
 import E from "./Pages/Home/E/E";
+import Blogs from "./Pages/Blog/Blogs/Blogs";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         ></Route>
         <Route path="about" element={<About></About>}></Route>
         <Route path="gallery" element={<Gallery></Gallery>}></Route>
+        <Route path="blog" element={<Blogs/>}></Route>
         {/* <Route path="login" element={<Login></Login>}></Route> */}
         {/* <Route path="signup" element={<Signup></Signup>}></Route> */}
         <Route path="contact" element={<Contact></Contact>}></Route>

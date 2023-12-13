@@ -11,7 +11,7 @@ const About = () => {
       <h1 className="about-h1">About Us</h1>
       <div className="d-flex container">
         <PageTitle title="About"></PageTitle>
-        <div className="p-5">{/* <GoogleMap></GoogleMap> */}</div>
+        {/* <div className="p-5"><GoogleMap></GoogleMap></div> */}
         <div className="p-5 about-img">
           <img
             src={

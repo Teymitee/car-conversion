@@ -126,11 +126,6 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">
-                      <i class="lni lni-twitter-original"></i>
-                    </a>
-                  </li>
-                  <li>
                     <a href="https://instagram.com/carconversiongloballtd?igshid=NGVhN2U2NjQ0Yg==">
                       <i class="lni lni-instagram-original"></i>
                     </a>
