@@ -1,7 +1,12 @@
 .about-h1{
-    background-color:#00a8a8;
+    background-color:#8a8e8e;
     padding: 80px;
     text-align: center;
-    color: white;
+    color: aliceblue;
     margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.about-img img {
+    max-width: 300px;
 }

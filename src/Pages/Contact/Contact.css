@@ -215,9 +215,10 @@
   .contact-info .social li {
     display: inline-block;
     margin-right: 12px;
+
   }
   .contact-info .social li a {
-    font-size: 20px;
+    font-size: 3rem !important;
     height: 40px;
     width: 40px;
     line-height: 38px;
@@ -230,9 +231,14 @@
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
+    padding: 0.2rem;
   }
   .contact-info .social li a:hover {
     color: var(--white);
     background-color: var(--primary);
     border-color: transparent;
   }
+
+  .contact-info .lni-facebook-original,  .contact-info .lni-twitter-original,  .contact-info .lni-instagram-original, .contact-info .lni-whatsapp {
+    border: none !important;
+  } 

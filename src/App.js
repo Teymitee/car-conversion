@@ -7,18 +7,10 @@ import Header from "./Pages/Shared/Header/Header";
 import Footer from "./Pages/Shared/Footer/Footer";
 import ServiceDetails from "./Pages/ServiceDetails/ServiceDetails";
 import NotFound from "./Pages/Shared/NotFound/NotFound";
-// import Login from "./Pages/Login/Login";
-// import Signup from "./Pages/Signup/Signup";
-import Checkout from "./Pages/Checkout/Checkout/Checkout";
-import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
-import AddService from "./Pages/AddService/AddService";
-import ManageServices from "./Pages/ManageServices/ManageServices";
 import Contact from "./Pages/Contact/Contact";
-// import Order from "./Pages/Order/Order";
 import Services from "./Pages/Home/Services/Services";
 import Gallery from "./Pages/Home/Gallery/Gallery";
 import E from "./Pages/Home/E/E";
-// import Serv from "./Pages/Serv";
 
 function App() {
   return (

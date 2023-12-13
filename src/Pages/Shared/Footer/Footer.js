@@ -18,8 +18,7 @@ const Footer = () => {
                      </a>
                   </div>
                   <p className="text">
-                     Lorem Ipsum is simply dummy text of the printing and
-                     typesetting industry.
+                  Driving Safely Begins with Us.
                   </p>
                </div>
                <div className="footer-app-store">
@@ -89,6 +88,8 @@ const Footer = () => {
    </div>
  
    <div className="footer-copyright">
+   <hr></hr>
+
       <div className="container">
          <div className="row">
             <div className="col-lg-12">

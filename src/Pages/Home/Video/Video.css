@@ -2,7 +2,7 @@
 .testimonial-one {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--light-2);
+  background-color: #6da5e0;
   /* Section Title Seven */
 }
 .testimonial-one .section-title-seven {
@@ -28,7 +28,7 @@
   color: var(--primary);
   display: inline-block;
   margin-bottom: 8px;
-  font-size: 15px;
+  font-size: 4rem;
   font-weight: 600;
 }
 .testimonial-one .section-title-seven h5 {

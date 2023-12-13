@@ -15,7 +15,7 @@ const Banner = () => {
   return (
     <Carousel fade activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item className="carousel-itemm">
-        <img className="d-block w-100 h" src={banner1} alt="First slide" />
+        <img className="d-block w-100 h" src={"https://th.bing.com/th/id/R.259bd1851415543b834ccee13268d7ab?rik=FY9Xh4UtajyhAw&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2flogan-paul-mercedes-g-wagon-v8.jpg&ehk=vvZCuItyjeyYcTIGKmqzCooGfrSAPubGI76hNcW1570%3d&risl=&pid=ImgRaw&r=0"} alt="First slide" />
         <Carousel.Caption>
           <h3>Car Converion Global Limited</h3>
           <p>
