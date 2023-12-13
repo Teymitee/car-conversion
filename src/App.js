@@ -12,6 +12,7 @@ import Services from "./Pages/Home/Services/Services";
 import Gallery from "./Pages/Home/Gallery/Gallery";
 import E from "./Pages/Home/E/E";
 import Blogs from "./Pages/Blog/Blogs/Blogs";
+import Products from "./Pages/Products/Products/Products";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="about" element={<About></About>}></Route>
         <Route path="gallery" element={<Gallery></Gallery>}></Route>
         <Route path="blog" element={<Blogs/>}></Route>
+        <Route path="products" element={<Products/>}></Route>
         {/* <Route path="login" element={<Login></Login>}></Route> */}
         {/* <Route path="signup" element={<Signup></Signup>}></Route> */}
         <Route path="contact" element={<Contact></Contact>}></Route>

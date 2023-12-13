@@ -19,16 +19,10 @@ const Header = () => {
   };
   return (
     <>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        sticky="top"
-        variant="dark"
-      >
+      <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark">
         <Container>
           <Navbar.Brand as={Link} to="/">
             <img height={50} src={logo} alt="" />
-           
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -36,14 +30,17 @@ const Header = () => {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="about">
-                About Us
-              </Nav.Link>
               <Nav.Link as={Link} to="service">
                 Services
               </Nav.Link>
+              <Nav.Link as={Link} to="products">
+                Products
+              </Nav.Link>
               <Nav.Link as={Link} to="gallery">
                 Gallery
+              </Nav.Link>
+              <Nav.Link as={Link} to="about">
+                About Us
               </Nav.Link>
               <Nav.Link as={Link} to="contact">
                 Contact Us
