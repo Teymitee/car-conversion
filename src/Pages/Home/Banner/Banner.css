@@ -3,17 +3,21 @@
   object-fit: cover;
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .h {
     max-height: 90vh;
     object-fit: cover;
+    top: 0;
   }
 }
 @media (max-width: 767px) {
   .h {
     max-height: 90vh;
     object-fit: cover;
-
+  }
+  .carousel-caption{
+    top: 25%;
   }
 }
 
@@ -25,28 +29,32 @@
   content: "";
   left: 0;
   top: 0;
-  height: 90vh;
+  height: 100%;
   width: 100%;
-  background-color: #1a49c9;
-  opacity: 0.5;
-
+  background-color: #0e38ad;
+  opacity: 0.6;
 }
 
+.carousel-caption {
+  justify-content: center;
+  margin: 0;
+  padding-top: 0;
+}
 .carousel-caption h3 {
-  font-size: 20px;
+  font-size: 3rem;
   font-weight: 700;
-  color: white;
-  font-family: 'Prata', serif;
+  color: aliceblue;
+  font-family: "Prata", "serif";
 }
 .carousel-caption p {
-  font-size: 10px;
-  top: 2rem;
+  font-size: 1rem;
+  /* top: 2rem; */
   color: white;
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
 }
-.carousel-caption a button{
-    display: inline-block;
-    font-size: 5px;
+.carousel-caption a button {
+  display: inline-block;
+  font-size: 5px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -55,25 +63,17 @@
     padding-left: 100px;
     padding-right: 100px;
   }
-  
+
   .carousel-caption h3 {
-    font-size: 85px;
+    font-size: 4rem;
     font-weight: 700;
-   color: aliceblue;
+    color: aliceblue;
   }
   .carousel-caption p {
     font-size: 20px;
-    top: 2rem;
-    color: white;
+    color: aliceblue;
   }
-  .carousel-caption a button{
-   
+  .carousel-caption a button {
     font-size: 15px;
-}
-}
-
-@media (max-width: 767px) {
-  .carousel-caption {
-    bottom: 30%;
   }
 }
