@@ -1,6 +1,6 @@
 .service{
     border: 1px solid lightgray;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     text-align: center;
     padding-bottom: 20px;
 }
@@ -8,4 +8,21 @@
 .card img {
     max-height: 300px;
     object-fit: cover;
+}
+.card-img-wrapper {
+    position: relative;
+}
+
+.card-img-wrapper h4 {
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 2%;
+    background-color: rgba(109, 111, 110, 0.642);
+}
+
+.card-title {
+    text-transform: uppercase !important;
 }
