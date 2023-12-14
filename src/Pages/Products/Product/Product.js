@@ -18,10 +18,12 @@ const Product = ({ service }) => {
             <h4>Before</h4>
           </div>
         ) : null}
-        <div className="card-img-wrapper">
-          <img src={imgAfter} className="card-img-top w-100" alt="..." />
-          <h4>After</h4>
-        </div>
+        {imgAfter ? (
+          <div className="card-img-wrapper">
+            <img src={imgAfter} className="card-img-top w-100" alt="..." />
+            <h4>After</h4>
+          </div>
+        ) : null}
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <p className="card-text">{description}</p>
