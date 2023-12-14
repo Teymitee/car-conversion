@@ -33,6 +33,7 @@
   }
   .team-style-one .team-image img {
     width: 100%;
+    border-radius: 100%;
   }
   .team-style-one .team-content {
     padding: 20px 15px;

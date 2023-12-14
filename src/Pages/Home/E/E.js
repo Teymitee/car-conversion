@@ -8,7 +8,7 @@ import experts3 from '../../../images/experts/expert-3.jpg';
 const E = () => {
     return (
         <div className='bg-light p-5'>
-        <h1 className='text-center heading mb-4'>Our Ceative Experts</h1>
+        <h1 className='text-center heading mb-4'>Meet Our Engineers</h1>
         <section className="team-area mb-5">
         <div className="container">
            <div className="row">
@@ -19,7 +19,7 @@ const E = () => {
                     </div>
                     <div className="team-content">
                        <h4 className="name">Jeffery Riley</h4>
-                       <span className="sub-title">Art Director</span>
+                       <span className="sub-title">Automotive Engineer</span>
                        <ul className="social">
                           <li>
                              <a href="/">
@@ -48,7 +48,7 @@ const E = () => {
                     </div>
                     <div className="team-content">
                        <h4 className="name">Aliya Butt</h4>
-                       <span className="sub-title">Art Director</span>
+                       <span className="sub-title">Electrical Engineer</span>
                        <ul className="social">
                           <li>
                              <a href="/">
@@ -77,7 +77,7 @@ const E = () => {
                     </div>
                     <div className="team-content">
                        <h4 className="name">Kamil Kiwis</h4>
-                       <span className="sub-title">Art Director</span>
+                       <span className="sub-title">Mechanical Engineer</span>
                        <ul className="social">
                           <li>
                              <a href="/">
@@ -106,7 +106,7 @@ const E = () => {
                     </div>
                     <div className="team-content">
                        <h4 className="name">Riley Beata</h4>
-                       <span className="sub-title">Art Director</span>
+                       <span className="sub-title">Diagnostic Engineer</span>
                        <ul className="social">
                           <li>
                              <a href="/">
